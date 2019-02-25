@@ -1,0 +1,14 @@
+language: ruby
+rvm:
+- 2.4.1
+services:
+- postgresql
+before_install:
+- gem install bundler
+before_script:
+- bundle exec rake db:{drop,create,migrate,seed}
+script:
+- bundle exec rspec
+env:
+  global:
+    secure: RhxGe+mI7PMJjOHFqYo56PJK2dKlQnhmVyBHt6lVo6yIz9Q5FTtvYMAf8xlfBAwaF2YbWgwAhtgtbFVGyOdoErdtI9+jVPyQajYQay9wpfA3YN1XY46Fy+StNEKuDZOdokXITqNwotaAatNhCcSolk2bX5OBYLtXFwrv144o1PsoTtk9qp9naYsF8OvVFQeQPWajqoSolwreROzw0tKrWuDw5lKdvZMNwdLEHvh9e6x4Z3l3A5dzbCM5TXHdTgHa2dCrIk07GJ411ei6/ARnhIygGsB+mnjRLmEnjbD51EczhchvoU/Ij9Ebyx6OaYL8ex2gzcA+5g+TyqsaH4j/gtPTO77bD2XyrDFX6fpIXFCVSaEhEyMbFMvZH1WlTLPF8CU7IYEv/fptA4jttsoyEKRkewwY2RpYwCNdBh5BKBVeME96+b7i2YK0LeeX6M5+NUSU1YsMKIdRBOBwWRQf8NvQorTyjp4k1qK4Pe2pPpr54N1ABLu/12WdKCe7ATyeYsibK5W5XnDKAjhE0NCOCFmdAB4NmHcEnUmLgZXR6fiNgE7VjjjhAPVmFO+uaz2Hqh+dY0BNxssA7ywekuP+zXlQYKdJEcoCw2Yoy1Pu3oxrhqe6U28pncsXM3vweMZZK0lcNBcO8cgvzitWwZglF73DFElt5F0Jzeu4OdvqUS0=
