@@ -10,7 +10,6 @@ RSpec.describe 'POST /api/v1/users' do
     expect(response).to be_successful
     
     results = JSON.parse(response.body, symbolize_names: true)
-
     expect(results).to have_key(:data)
   end
 end
