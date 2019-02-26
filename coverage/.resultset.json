@@ -81,6 +81,45 @@
         null,
         null
       ],
+      "/Users/millstone/Turing/4Module/rails_falcons/spec/requests/new_user_request_spec.rb": [
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/millstone/Turing/4Module/rails_falcons/spec/requests/user_login_request_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/millstone/Turing/4Module/rails_falcons/spec/factories/favorites.rb": [
         1,
         1,
@@ -152,8 +191,52 @@
         1,
         null,
         null
+      ],
+      "/Users/millstone/Turing/4Module/rails_falcons/app/controllers/api/v1/users_controller.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/millstone/Turing/4Module/rails_falcons/app/serializers/user_serializer.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/millstone/Turing/4Module/rails_falcons/app/controllers/api/v1/sessions_controller.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        0,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        2,
+        null,
+        null
       ]
     },
-    "timestamp": 1551216962
+    "timestamp": 1551218283
   }
 }
