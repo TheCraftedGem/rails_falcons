@@ -1,0 +1,8 @@
+<%= form_tag(api_v1_news_path(:name), {:method => :get}) do %>
+  <%= text_field_tag :name %>
+  <%= hidden_field_tag :id, @user.id %>
+  <%= submit_tag :submit %>
+
+<% end %>
+
+

@@ -1,0 +1,19 @@
+
+Welcome <%=@user.email%>
+</br>
+</br>
+Title: <%=@news.news_feed.title%>
+
+</br>
+
+</br>
+Content: <%=@news.news_feed.content%>
+</br>
+
+</br>
+
+<%= form_tag(api_v1_news_path(:name), {:method => :get}) do %>
+  <%= text_field_tag :name %>
+  <%= submit_tag :submit %>
+<% end %>
+

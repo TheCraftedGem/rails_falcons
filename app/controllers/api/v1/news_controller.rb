@@ -1,9 +1,11 @@
 class Api::V1::NewsController < ApplicationController
-
+  before_action :validate_user
 
   def index
-    news = NewsFacade.new(params)
-    render json: NewsSerializer.new(news)
+    @user = User.find_by(id: params[:id])
+    @news = NewsFacade.new(params)
+
+    render to_partial: NewsSerializer.new(@news)
   end
 
 end

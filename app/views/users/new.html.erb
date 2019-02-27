@@ -1,0 +1,17 @@
+<div class="jumbotron">
+  <div class="container">
+    <div class="col-md-8">
+      <h1>Register as a New User</h1>
+
+      <%= form_for @user do |f| %>
+        <%= f.label :email %>:
+        <%= f.text_field :email %> <br>
+
+        <%= f.label :password %>:
+        <%= f.password_field :password %> <br>
+        <%= f.submit %> <br>
+      <% end %>
+
+    </div>
+    </div>
+  </div>
