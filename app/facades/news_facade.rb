@@ -6,6 +6,6 @@ class NewsFacade
   end
 
   def news_feed
-    FantasyService.new(@params).get_url
+    News.new(FantasyService.new(@params).get_url)
   end
 end
