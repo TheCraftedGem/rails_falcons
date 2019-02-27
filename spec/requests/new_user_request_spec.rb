@@ -2,9 +2,9 @@
 require 'rails_helper'
 
 RSpec.describe 'POST /api/v1/users' do
-  it 'creates a user and returns an API key' do
+  it 'creates a new useruser ' do
 
-    params = { email: 'whatever@example.com', password: 'password'}
+    params = {email: 'whatever@example.com', password: 'password'}
 
     post "/api/v1/users?email=#{params[:email]}&password=#{params[:password]}"
 

@@ -64,6 +64,30 @@
         1,
         null
       ],
+      "/Users/millstone/Turing/4Module/rails_falcons/spec/requests/favorites_request_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/millstone/Turing/4Module/rails_falcons/spec/requests/get_news_request_spec.rb": [
         null,
         1,
@@ -142,6 +166,54 @@
         null,
         null
       ],
+      "/Users/millstone/Turing/4Module/rails_falcons/app/controllers/api/v1/users_controller.rb": [
+        1,
+        1,
+        2,
+        2,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        2,
+        null,
+        null
+      ],
+      "/Users/millstone/Turing/4Module/rails_falcons/app/controllers/application_controller.rb": [
+        1,
+        null,
+        1,
+        3,
+        null,
+        null,
+        1,
+        1,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/Users/millstone/Turing/4Module/rails_falcons/app/controllers/api/v1/favorites_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/millstone/Turing/4Module/rails_falcons/app/serializers/favorites_serializer.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
       "/Users/millstone/Turing/4Module/rails_falcons/app/controllers/api/v1/news_controller.rb": [
         1,
         null,
@@ -151,10 +223,6 @@
         1,
         null,
         null,
-        null
-      ],
-      "/Users/millstone/Turing/4Module/rails_falcons/app/controllers/application_controller.rb": [
-        1,
         null
       ],
       "/Users/millstone/Turing/4Module/rails_falcons/app/facades/news_facade.rb": [
@@ -192,24 +260,6 @@
         null,
         null
       ],
-      "/Users/millstone/Turing/4Module/rails_falcons/app/controllers/api/v1/users_controller.rb": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        0,
-        null,
-        null,
-        null,
-        1,
-        null,
-        1,
-        1,
-        null,
-        null
-      ],
       "/Users/millstone/Turing/4Module/rails_falcons/app/serializers/user_serializer.rb": [
         1,
         1,
@@ -237,6 +287,6 @@
         null
       ]
     },
-    "timestamp": 1551218283
+    "timestamp": 1551226917
   }
 }

@@ -6,6 +6,7 @@ Rails.application.routes.draw do
         get '/news', to: 'news#index'
         post '/users', to: "users#create"
         post '/sessions', to: "sessions#create"
+        post '/favorites/:id', to: "favorites#create"
     end
   end
 end

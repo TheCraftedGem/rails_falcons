@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe 'POST /api/v1/users' do
-  it 'returing user gets api key in response' do
+  it 'returing user gets  in response' do
     user = create(:user, email: 'whatever@example.com', password: "password" )
 
     post "/api/v1/sessions?email=#{user.email}&password=#{user.password}"
