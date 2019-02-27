@@ -10,7 +10,6 @@ RSpec.describe 'POST /api/v1/users' do
 
     params = {name: "Atl"}
     get "/api/v1/news?name=#{params[:name]}"
-binding.pry
     
     results = JSON.parse(response.body, symbolize_names: true)
     expect(results).to have_key(:data)
