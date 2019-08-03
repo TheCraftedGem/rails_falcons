@@ -39,7 +39,7 @@ To view these endpoints run your server using the command: `rails s`
 
 #### Sports Team News - api/v1/news?name={TEAM NAME ABV}
 
-A user can query this endpoint with a NFL TEAM'S abreviated name to show the recent news for that Football Team.
+A user can query this endpoint with a NFL TEAM'S abbreviated name to show the recent news for that Football Team.
 
 example request:
 ````
